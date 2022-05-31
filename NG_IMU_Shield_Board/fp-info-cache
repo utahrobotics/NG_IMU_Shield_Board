@@ -1,4 +1,4 @@
-19841756151768128
+19838451623813154
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59262,26 +59262,12 @@ Mounting 4.5mm 9774100982
 8
 1
 NG_IMU_footprints
-IPL1-112-01-F-D-K
-
-
-0
-24
-24
-NG_IMU_footprints
 Level_Converter
 
 
 0
 12
 12
-NG_IMU_footprints
-PYB30-Q24-T515
-
-
-0
-7
-7
 NG_IMU_footprints
 Teensy4.0
 
