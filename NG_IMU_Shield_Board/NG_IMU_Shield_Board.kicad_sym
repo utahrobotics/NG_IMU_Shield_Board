@@ -321,7 +321,10 @@
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn75lbc175a.pdf" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "Quadruple RS-485 Differential Line Receivers" (id 4) (at 0 0 0)
+    (property "ki_locked" "" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "ki_description" "Quadruple RS-485 Differential Line Receivers" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "SN75LBC175_1_0"
