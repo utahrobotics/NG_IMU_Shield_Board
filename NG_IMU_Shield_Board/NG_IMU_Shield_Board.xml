@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/jonathan/git/NG_IMU_Shield_Board/NG_IMU_Shield_Board/NG_IMU_Shield_Board.kicad_sch</source>
+    <date>Tue 31 May 2022 09:47:48 PM MDT</date>
+    <tool>Eeschema 6.0.1-79c1e3a40b~116~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>NG LN200C Shield Board</title>
+        <company>Utah Student Robotics</company>
+        <rev/>
+        <date>2022-05-17</date>
+        <source>NG_IMU_Shield_Board.kicad_sch</source>
+        <comment number="1" value="Designed by Jonathan Warner"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NG_IMU_Shield_Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8fd820f3-11f3-4a2f-b9ff-2d42e6e0a4fe</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NG_IMU_Shield_Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>31da79a7-f210-4152-b68e-e8a0963430c9</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <libsource lib="NG_IMU_Interface_Board-rescue" part="LED" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NG_IMU_Shield_Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005acac203</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED_GABR</value>
+      <footprint>LED_THT:LED_D5.0mm-4_RGB</footprint>
+      <libsource lib="Device" part="LED_GABR" description="RGB LED, green/anode/blue/red"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NG_IMU_Shield_Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a55697f-0717-4220-8b7e-207e8d2e8edf</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NG_IMU_Shield_Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5f896468-93f7-4c01-b3ab-067ed3875a14</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NG_IMU_Shield_Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>45374291-53d6-45a9-99cb-a703a8797c83</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x10_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x10_Female" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NG_IMU_Shield_Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eda1404a-25f3-42d4-b3de-9cb5b2a0a6f3</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x03_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NG_IMU_Shield_Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e1011013-62a3-47d2-9a4f-ee5ec3ce63cf</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x11_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x11_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x11_Male" description="Generic connector, single row, 01x11, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NG_IMU_Shield_Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e1733100-81bd-4a09-a85d-4e71c8df6428</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>Jumper_2_Open</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NG_IMU_Shield_Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>afee99b0-6a90-4948-bc99-81059c1d912b</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="NG_IMU_Interface_Board-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NG_IMU_Shield_Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005acac33c</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="NG_IMU_Interface_Board-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NG_IMU_Shield_Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ceb6cdcb-8e0b-4367-b390-08e19d41682c</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="NG_IMU_Interface_Board-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NG_IMU_Shield_Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>44359aa3-a146-4361-a6d3-bf8baf4d0769</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="NG_IMU_Interface_Board-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NG_IMU_Shield_Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0d4a528e-b31d-453e-afef-d3240f941de5</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>120</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="NG_IMU_Interface_Board-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NG_IMU_Shield_Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ac440ba-4881-4f79-8968-a3e9f9fd1b3e</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>120</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="NG_IMU_Interface_Board-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NG_IMU_Shield_Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>53209e6b-2640-4435-b0ad-e5142285de26</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>SN75LBC175</value>
+      <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/sn75lbc175a.pdf</datasheet>
+      <libsource lib="NG_IMU_Shield_Board" part="SN75LBC175" description="Quadruple RS-485 Differential Line Receivers"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NG_IMU_Shield_Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b3175f6-6acf-4126-a655-d3273a95a60c fbc7cd5b-7c4b-43fd-8ef9-d6da5696149d 7831b541-e0d2-4aeb-b1b4-806d32aaad20</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>Level_Converter</value>
+      <footprint>NG_IMU_footprints:Level_Converter</footprint>
+      <datasheet>https://www.sparkfun.com/products/12009</datasheet>
+      <libsource lib="NG_IMU_Shield_Board" part="Level_Converter" description="Bi-directional Logic Level Converter"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NG_IMU_Shield_Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2db44430-c702-49d4-8a3c-b86ac48313c6</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>Teensy_v4.0</value>
+      <footprint>NG_IMU_footprints:Teensy4.0</footprint>
+      <datasheet>https://www.pjrc.com/store/teensy40.html</datasheet>
+      <libsource lib="NG_IMU_Shield_Board" part="Teensy_v4.0" description="Teensy 4.0 Development Board"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NG_IMU_Shield_Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>087ecb37-d71c-4f59-b246-05bba4942926</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Female">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Female">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x10_Female">
+      <description>Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x10_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x11_Male">
+      <description>Generic connector, single row, 01x11, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x11_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_GABR">
+      <description>RGB LED, green/anode/blue/red</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_GABR</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GK" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+        <pin num="3" name="BK" type="passive"/>
+        <pin num="4" name="RK" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="Jumper_2_Open">
+      <description>Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_2_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NG_IMU_Interface_Board-rescue" part="Conn_02x12_Top_Bottom">
+      <footprints>
+        <fp>Connector*:*2x??x*mm*</fp>
+        <fp>Connector*:*2x???Pitch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x12_Top_Bottom</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NG_IMU_Interface_Board-rescue" part="LED">
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NG_IMU_Interface_Board-rescue" part="R">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NG_IMU_Shield_Board" part="Level_Converter">
+      <description>Bi-directional Logic Level Converter</description>
+      <docs>https://www.sparkfun.com/products/12009</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Level_Converter</field>
+        <field name="Footprint">NG_IMU_footprints:Level_Converter</field>
+        <field name="Datasheet">https://www.sparkfun.com/products/12009</field>
+      </fields>
+      <pins>
+        <pin num="1" name="HV1" type="bidirectional"/>
+        <pin num="2" name="HV2" type="bidirectional"/>
+        <pin num="3" name="HV" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="HV3" type="bidirectional"/>
+        <pin num="6" name="HV4" type="bidirectional"/>
+        <pin num="7" name="LV4" type="bidirectional"/>
+        <pin num="8" name="LV3" type="bidirectional"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="LV" type="power_in"/>
+        <pin num="11" name="LV2" type="bidirectional"/>
+        <pin num="12" name="LV1" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="NG_IMU_Shield_Board" part="SN75LBC175">
+      <description>Quadruple RS-485 Differential Line Receivers</description>
+      <docs>https://www.ti.com/lit/ds/symlink/sn75lbc175a.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN75LBC175</field>
+        <field name="Footprint">Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn75lbc175a.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1B" type="input"/>
+        <pin num="2" name="1A" type="input"/>
+        <pin num="3" name="1Y" type="output"/>
+        <pin num="4" name="1,2EN" type="input"/>
+        <pin num="5" name="2Y" type="output"/>
+        <pin num="6" name="2A" type="input"/>
+        <pin num="7" name="2B" type="input"/>
+        <pin num="8" name="V-" type="power_in"/>
+        <pin num="9" name="3B" type="input"/>
+        <pin num="10" name="3A" type="input"/>
+        <pin num="11" name="3Y" type="output"/>
+        <pin num="12" name="3,4EN" type="input"/>
+        <pin num="13" name="4Y" type="output"/>
+        <pin num="14" name="4A" type="input"/>
+        <pin num="15" name="4B" type="input"/>
+        <pin num="16" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="NG_IMU_Shield_Board" part="Teensy_v4.0">
+      <description>Teensy 4.0 Development Board</description>
+      <docs>https://www.pjrc.com/store/teensy40.html</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Teensy_v4.0</field>
+        <field name="Footprint">NG_IMU_footprints:Teensy4.0</field>
+        <field name="Datasheet">https://www.pjrc.com/store/teensy40.html</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="D0/RX1" type="bidirectional"/>
+        <pin num="3" name="D1/TX1" type="bidirectional"/>
+        <pin num="4" name="D2" type="bidirectional"/>
+        <pin num="5" name="D3" type="bidirectional"/>
+        <pin num="6" name="D4" type="bidirectional"/>
+        <pin num="7" name="D5" type="bidirectional"/>
+        <pin num="8" name="D6" type="bidirectional"/>
+        <pin num="9" name="D7/RX2" type="bidirectional"/>
+        <pin num="10" name="D8/TX2" type="bidirectional"/>
+        <pin num="11" name="D9" type="bidirectional"/>
+        <pin num="12" name="D10/CS" type="bidirectional"/>
+        <pin num="13" name="D11/MOSI" type="bidirectional"/>
+        <pin num="14" name="D12/MISO" type="bidirectional"/>
+        <pin num="15" name="LED/D13" type="bidirectional"/>
+        <pin num="16" name="TX3/A0" type="bidirectional"/>
+        <pin num="17" name="RX3/A1" type="bidirectional"/>
+        <pin num="18" name="SCL1/A2" type="bidirectional"/>
+        <pin num="19" name="SDA1/A3" type="bidirectional"/>
+        <pin num="20" name="SDA/A4" type="bidirectional"/>
+        <pin num="21" name="SCL/A5" type="bidirectional"/>
+        <pin num="22" name="TX5/A6" type="bidirectional"/>
+        <pin num="23" name="RX5/A7" type="bidirectional"/>
+        <pin num="24" name="CTX1/A8" type="bidirectional"/>
+        <pin num="25" name="CRX1/A9" type="bidirectional"/>
+        <pin num="26" name="3V3" type="power_out"/>
+        <pin num="27" name="GND" type="power_in"/>
+        <pin num="28" name="+5V" type="power_out"/>
+        <pin num="29" name="VUSB" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/usr/share/kicad/symbols//Jumper.kicad_sym</uri>
+    </library>
+    <library logical="NG_IMU_Shield_Board">
+      <uri>/home/jonathan/git/NG_IMU_Shield_Board/NG_IMU_Shield_Board/NG_IMU_Shield_Board.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/+5V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="4Y" pintype="output"/>
+      <node ref="U1" pin="14" pinfunction="4A" pintype="input"/>
+      <node ref="U1" pin="15" pinfunction="4B" pintype="input"/>
+      <node ref="U1" pin="16" pinfunction="V+" pintype="power_in"/>
+      <node ref="U1" pin="4" pinfunction="1,2EN" pintype="input"/>
+      <node ref="U2" pin="3" pinfunction="HV" pintype="power_in"/>
+    </net>
+    <net code="2" name="/+15V">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="3" name="/-15V">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="4" name="/0V">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="3A" pintype="input"/>
+      <node ref="U1" pin="11" pinfunction="3Y" pintype="output"/>
+      <node ref="U1" pin="12" pinfunction="3,4EN" pintype="input"/>
+      <node ref="U1" pin="8" pinfunction="V-" pintype="power_in"/>
+      <node ref="U1" pin="9" pinfunction="3B" pintype="input"/>
+      <node ref="U2" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="9" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="27" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="5" pinfunction="D3" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/3V3">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="LV" pintype="power_in"/>
+      <node ref="U3" pin="26" pinfunction="3V3" pintype="power_out"/>
+      <node ref="U3" pin="4" pinfunction="D2" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/ALED">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U3" pin="13" pinfunction="D11/MOSI" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/BLED">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U3" pin="12" pinfunction="D10/CS" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/C2">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="11" name="/CLK_INT_enabled">
+      <node ref="J6" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U3" pin="19" pinfunction="SDA1/A3" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/CLK_clean">
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="HV2" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/CLK_in">
+      <node ref="U2" pin="11" pinfunction="LV2" pintype="bidirectional"/>
+      <node ref="U3" pin="3" pinfunction="D1/TX1" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/D3">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="17" name="/Data_clean">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="HV1" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/Data_in">
+      <node ref="U2" pin="12" pinfunction="LV1" pintype="bidirectional"/>
+      <node ref="U3" pin="2" pinfunction="D0/RX1" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/Data_ready">
+      <node ref="J6" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U3" pin="17" pinfunction="RX3/A1" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/G1">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="21" name="/G3">
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="22" name="/GLED">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U3" pin="14" pinfunction="D12/MISO" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/H1">
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="24" name="/H2">
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="25" name="/IMU_init">
+      <node ref="J6" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="U3" pin="15" pinfunction="LED/D13" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/InFrame">
+      <node ref="J6" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="U3" pin="16" pinfunction="TX3/A0" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="/J2">
+      <node ref="J3" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="28" name="/K2">
+      <node ref="J3" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="31" name="/RLED">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U3" pin="11" pinfunction="D9" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="/Ready+">
+      <node ref="J3" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="1A" pintype="input"/>
+    </net>
+    <net code="33" name="/Ready-">
+      <node ref="J3" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="1B" pintype="input"/>
+    </net>
+    <net code="34" name="/Ready_clean">
+      <node ref="U1" pin="3" pinfunction="1Y" pintype="output"/>
+      <node ref="U2" pin="5" pinfunction="HV3" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="/Ready_in">
+      <node ref="U2" pin="8" pinfunction="LV3" pintype="bidirectional"/>
+      <node ref="U3" pin="6" pinfunction="D4" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="/Test+">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="2A" pintype="input"/>
+    </net>
+    <net code="37" name="/Test-">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="2B" pintype="input"/>
+    </net>
+    <net code="38" name="/Test_clean">
+      <node ref="U1" pin="5" pinfunction="2Y" pintype="output"/>
+      <node ref="U2" pin="6" pinfunction="HV4" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="/Test_in">
+      <node ref="U2" pin="7" pinfunction="LV4" pintype="bidirectional"/>
+      <node ref="U3" pin="7" pinfunction="D5" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="/Vin">
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U3" pin="28" pinfunction="+5V" pintype="power_out"/>
+    </net>
+    <net code="41" name="/bad_checksum">
+      <node ref="J6" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U3" pin="20" pinfunction="SDA/A4" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="/bad_data">
+      <node ref="J6" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U3" pin="21" pinfunction="SCL/A5" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="/spin_enabled">
+      <node ref="J6" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U3" pin="18" pinfunction="SCL1/A2" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="/user1">
+      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U3" pin="22" pinfunction="TX5/A6" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="/user2">
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U3" pin="23" pinfunction="RX5/A7" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="/user3">
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U3" pin="24" pinfunction="CTX1/A8" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="/user4">
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U3" pin="25" pinfunction="CRX1/A9" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1" pinfunction="GK" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(D2-Pad3)">
+      <node ref="D2" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(D2-Pad4)">
+      <node ref="D2" pin="4" pinfunction="RK" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="53" name="unconnected-(U3-Pad8)">
+      <node ref="U3" pin="8" pinfunction="D6" pintype="bidirectional"/>
+    </net>
+    <net code="54" name="unconnected-(U3-Pad9)">
+      <node ref="U3" pin="9" pinfunction="D7/RX2" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="unconnected-(U3-Pad10)">
+      <node ref="U3" pin="10" pinfunction="D8/TX2" pintype="bidirectional"/>
+    </net>
+    <net code="56" name="unconnected-(U3-Pad29)">
+      <node ref="U3" pin="29" pinfunction="VUSB" pintype="power_in"/>
+    </net>
+  </nets>
+</export>
