@@ -6,10 +6,13 @@
     (property "Value" "Level_Converter" (id 1) (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (id 2) (at 0 0 0)
+    (property "Footprint" "NG_IMU_footprints:Level_Converter" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (id 3) (at 0 0 0)
+    (property "Datasheet" "https://www.sparkfun.com/products/12009" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Bi-directional Logic Level Converter" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Level_Converter_0_1"
@@ -305,20 +308,23 @@
       )
     )
   )
-  (symbol "SN75ALS175" (in_bom yes) (on_board yes)
+  (symbol "SN75LBC175" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 1.27 6.35 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "SN75ALS175" (id 1) (at 6.35 -6.35 0)
+    (property "Value" "SN75LBC175" (id 1) (at 6.35 -6.35 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (id 2) (at 0 0 0)
+    (property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (id 3) (at 0 0 0)
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn75lbc175a.pdf" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "SN75ALS175_1_0"
+    (property "ki_description" "Quadruple RS-485 Differential Line Receivers" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "SN75LBC175_1_0"
       (polyline
         (pts
           (xy 1.016 4.572)
@@ -331,7 +337,7 @@
         (fill (type none))
       )
     )
-    (symbol "SN75ALS175_1_1"
+    (symbol "SN75LBC175_1_1"
       (rectangle (start -6.35 5.08) (end 6.35 -5.08)
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -413,7 +419,7 @@
         (number "7" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "SN75ALS175_2_0"
+    (symbol "SN75LBC175_2_0"
       (polyline
         (pts
           (xy 1.016 4.572)
@@ -426,7 +432,7 @@
         (fill (type none))
       )
     )
-    (symbol "SN75ALS175_2_1"
+    (symbol "SN75LBC175_2_1"
       (rectangle (start -6.35 5.08) (end 6.35 -5.08)
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -508,7 +514,7 @@
         (number "9" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "SN75ALS175_3_1"
+    (symbol "SN75LBC175_3_1"
       (pin power_in line (at -2.54 7.62 270) (length 3.81)
         (name "V+" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
@@ -526,10 +532,13 @@
     (property "Value" "Teensy_v4.0" (id 1) (at 0 -2.54 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (id 2) (at 0 -2.54 0)
+    (property "Footprint" "NG_IMU_footprints:Teensy4.0" (id 2) (at 0 -2.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (id 3) (at 0 -2.54 0)
+    (property "Datasheet" "https://www.pjrc.com/store/teensy40.html" (id 3) (at 0 -2.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Teensy 4.0 Development Board" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Teensy_v4.0_0_1"
