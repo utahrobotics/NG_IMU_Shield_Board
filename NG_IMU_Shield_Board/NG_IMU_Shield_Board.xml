@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/jonathan/git/NG_IMU_Shield_Board/NG_IMU_Shield_Board/NG_IMU_Shield_Board.kicad_sch</source>
-    <date>Thu 02 Jun 2022 09:32:08 AM MDT</date>
+    <date>Thu 02 Jun 2022 10:41:55 AM MDT</date>
     <tool>Eeschema 6.0.1-79c1e3a40b~116~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -106,9 +106,9 @@
       <tstamps>e1733100-81bd-4a09-a85d-4e71c8df6428</tstamps>
     </comp>
     <comp ref="J8">
-      <value>Conn_01x01_Female</value>
-      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical</footprint>
-      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <value>Conn_01x02_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="NG_IMU_Shield_Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -209,19 +209,20 @@
     </comp>
   </components>
   <libparts>
-    <libpart lib="Connector" part="Conn_01x01_Female">
-      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+    <libpart lib="Connector" part="Conn_01x02_Female">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
       <footprints>
-        <fp>Connector*:*</fp>
+        <fp>Connector*:*_1x??_*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Conn_01x01_Female</field>
+        <field name="Value">Conn_01x02_Female</field>
         <field name="Datasheet">~</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Connector" part="Conn_01x02_Male">
@@ -574,6 +575,7 @@
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="U1" pin="10" pinfunction="3A" pintype="input"/>
       <node ref="U1" pin="11" pinfunction="3Y" pintype="output"/>
       <node ref="U1" pin="12" pinfunction="3,4EN" pintype="input"/>
